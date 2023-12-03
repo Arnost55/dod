@@ -59,6 +59,7 @@ function handleIrButton (button: number) {
 let IR_AB = 0
 let IR_BACKWARD = 0
 let IR_FORWARD = 0
+irRemote.connectInfrared(DigitalPin.P1)
 let autoMode = false
 const MOTOR_LEFT_FORWARD = DigitalPin.P12;
 const MOTOR_LEFT_BACKWARD = DigitalPin.P8;
